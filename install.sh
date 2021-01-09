@@ -42,7 +42,7 @@ echo
 THE-END-OF-DATA
 echo Extracting sys_info_page
 cat >sys_info_page <<\THE-END-OF-DATA
-#!/bin/bash -x
+#!/bin/bash
 # sys_info_page: program to output a system information page
 PROGNAME=$(basename $0)
 TITLE="System Information Report For $HOSTNAME"
